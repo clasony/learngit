@@ -1,2 +1,3 @@
 checking for reset hard. 
 commit 2 
+commit 3
