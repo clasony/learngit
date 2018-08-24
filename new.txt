@@ -1,1 +1,2 @@
 checking for reset hard. 
+commit 2 
