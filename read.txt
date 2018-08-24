@@ -1,1 +1,3 @@
 creating a new file read.txt
+Now the changes are made
+These are done using vi. 
