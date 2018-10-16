@@ -12,7 +12,7 @@
 <target name="test">
     <property name="comp.dir" value="D:\sony\git\learngit\java"/>
 	<property name="comp.class.dir" value="D:\sony\git\learngit\target"/>
-	<property name="test.dir" value="C:\Users\unique\.jenkins\workspace\Testcases\result"/>
+	<property name="test.dir" value="C:\Users\unique\.jenkins\workspace\runtest\reports"/>
 	
 	<!-- compile the FailedTests class if present -->
     <javac srcdir="${comp.dir}" destdir="${comp.class.dir}"/>
