@@ -15,7 +15,7 @@
 	<property name="test.dir" value="C:\Users\unique\.jenkins\workspace\runtest\reports"/>
 	
 	<!-- compile the FailedTests class if present -->
-    <javac srcdir="${comp.dir}" destdir="${comp.class.dir}"/>
+    <javac srcdir="${comp.dir}" destdir="${comp.class.dir}" includeantruntime="false"/>
    
  
 	<junit haltonerror="false" haltonfailure="no" printsummary="yes">
