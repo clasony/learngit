@@ -32,8 +32,8 @@ public class JUnitHelloWorldTest {
     public void after() {
         System.out.println("After Test Case");
     }
+	
     @AfterClass
-
     public static void afterClass() {
         System.out.println("After Class");
     }
