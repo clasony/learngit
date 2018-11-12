@@ -10,9 +10,9 @@
 
 
 <target name="test">
-    <property name="comp.dir" value="D:\sony\git\learngit\java"/>
-	<property name="comp.class.dir" value="D:\sony\git\learngit\target"/>
-	<property name="test.dir" value="C:\Users\unique\.jenkins\workspace\runtest\reports"/>
+    <property name="comp.dir" value="D:\slave1\workspace\runtest\java"/>
+	<property name="comp.class.dir" value="D:\slave1\workspace\runtest\target\junit"/>
+	<property name="test.dir" value="D:\slave1\workspace\runtest\result"/>
 	
 	<!-- compile the FailedTests class if present -->
     <javac srcdir="${comp.dir}" destdir="${comp.class.dir}" includeantruntime="false"/>
@@ -23,7 +23,7 @@
 	  <classpath location="D:\softs\apache-ant-1.10.5-bin\apache-ant-1.10.5\lib\junit.jar"/>
        
 	   <test name="JUnitHelloWorldTest" 
-			haltonfailure="no" todir="${test.dir}" outfile="report">
+			haltonfailure="no" todir="${test.dir}" outfile="result">
 			<!--<formatter type="plain" />-->
 			<formatter type="xml" />
 		</test>
